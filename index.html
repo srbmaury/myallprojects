@@ -8,20 +8,15 @@
 </head>
 <body>
     <ul id="list">My projects
-        <li>Website
-            <ul>
-                <li><a href="https://srbmaury.github.io/responsive_Website/">Design 1</a></li>
-                <li><a href="https://srbmaury.github.io/responsiveWebsite">Design 2</a></li>
-            </ul>
-        </li>
+        <li><a href="https://srbmaury.github.io/responsive_Website/">Website</a></li>
         <li><a href="https://srbmaury.github.io/quiz1">Quiz</a></li>
         <li><a href="https://srbmaury.github.io/animation">Animation</a></li>
         <li><a href="https://srbmaury.github.io/dictionary">Dictionary</a></li>
     </ul>
     <style>
-    body{
-        padding-top:70px;
-    }
+        body{
+            padding-top:70px;
+        }
         *{
             font-size:25px;
             margin-top:5px;
@@ -30,6 +25,9 @@
             margin-left:40vw;
             margin-bottom:12px;
         }
+        #list li{
+            margin-top:2vh;
+        }
         a{
             text-decoration:none;
             color:black;
@@ -37,12 +35,16 @@
             background-color:#E3F6F5;
             border-radius:4px;
         }
+        a:hover{
+            color:blue;
+            background-color: beige;
+        }
         @media only screen and (max-width:480px){
             #list{
                 margin-left:10vw;
                 margin-bottom:12px;
             }
         }
-    </style>
+        </style>   
 </body>
 </html>
